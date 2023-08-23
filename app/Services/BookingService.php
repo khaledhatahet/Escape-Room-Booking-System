@@ -33,7 +33,7 @@ class BookingService{
         $userBirthDay = User::find($data["user_id"])->date_of_birth;
         $birthdate = \Carbon\Carbon::parse($userBirthDay);
         $formattedDate = $birthdate->format('m-d');
-        if($formattedDate == date('m-d')){
+        if($formattedDate == date('m-d')){ // check if it is user birthday
             $data["discount_percentage"] = isset($data["discount_percentage"]) ?   $data["discount_percentage"] +10 : 10;
         }
 

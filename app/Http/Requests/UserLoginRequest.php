@@ -32,11 +32,11 @@ class UserLoginRequest extends FormRequest
     public function messages()
     {
         return [
-            'email.required' => __('general.requiredField' , ['field' => 'email']),
-            'email.email' => __('general.emailField' , ['field' => 'email']),
+            'email.required' => __('validation.requiredField' , ['field' => 'email']),
+            'email.email' => __('validation.emailField' , ['field' => 'email']),
 
-            'password.required' => __('general.requiredField' , ['field' => 'password']),
-            'password.string' => __('general.stringField' , ['field' => 'password']),
+            'password.required' => __('validation.requiredField' , ['field' => 'password']),
+            'password.string' => __('validation.stringField' , ['field' => 'password']),
         ];
     }
 }

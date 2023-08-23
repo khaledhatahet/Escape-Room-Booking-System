@@ -21,7 +21,7 @@ trait GeneralTrait{
         ];
     }
 
-    public function returnData($value, $key="data" , $msg = "")
+    public function returnData($value, $msg = "" , $key="data" )
     {
         return response()->json([
             'status' => true,
