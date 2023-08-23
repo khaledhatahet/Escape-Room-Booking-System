@@ -181,5 +181,15 @@ return [
     */
 
     'attributes' => [],
+    'requiredField' => ':field is required',
+    'stringField' => ':field must be string',
+    'emailField' => ':field must be email',
+    'dateField' => ':field must be date',
+    'numericField' => ':field must be numeric',
+    'mustBeExistsInTable' => ':field must be exists in :table table',
+    'doesnotExists' => ':field does not exists',
+    'uniqueEmail' => 'the email was taken please use another email',
+    'passwordsMustBeSame' => 'the password and repassword fields must be same',
+
 
 ];
