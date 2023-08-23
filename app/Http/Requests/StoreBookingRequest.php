@@ -27,7 +27,7 @@ class StoreBookingRequest extends FormRequest
             'user_id' => 'required|exists:users,id',
             'room_id' => 'required|exists:rooms,id',
             'time_slot_id' => 'required|exists:time_slots,id',
-            'discount_percentage' => 'nullable|numeric'
+            'discount_percentage' => 'nullable|numeric|max:100'
         ];
     }
 

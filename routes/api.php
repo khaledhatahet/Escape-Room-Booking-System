@@ -27,4 +27,3 @@ Route::delete('bookings/{id}',[BookingController::class , 'destroy']);
 
 Route::post('registerUser',[AuthenticationController::class,'registerUser']);
 Route::post('loginUser',[AuthenticationController::class,'loginUser']);
-Route::post('checkIfUserLoggedIn',[AuthenticationController::class,'checkIfUserLoggedIn']);

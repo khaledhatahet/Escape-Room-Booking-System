@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('bookings', function (Blueprint $table) {
-            $table->string('discount_percentage')->after('time_slot_id')->default(0);
+            $table->integer('discount_percentage')->after('time_slot_id')->default(0);
         });
     }
 
