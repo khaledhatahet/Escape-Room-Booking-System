@@ -12,13 +12,13 @@ This applications uses Laravel Passport package to handle authentication.(https:
 Clone the repository
 
 ```bash
-  git clone https://github.com/khaledhatahet/Rook_Booking_System_API.git
+  git clone https://github.com/khaledhatahet/Escape-Room-Booking-System.git
 ```
 
 Switch to the repo folder
 
 ```bash
-  cd Rook_Booking_System_API
+  cd Escape-Room-Booking-System
 ```
 
 Install all the dependencies using composer
